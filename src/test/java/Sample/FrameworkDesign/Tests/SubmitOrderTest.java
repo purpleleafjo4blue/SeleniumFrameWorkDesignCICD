@@ -21,6 +21,7 @@ import Sample.FrameworkDesign.pageobjects.OrderPage;
 import Sample.FrameworkDesign.pageobjects.ProductCatalogue;
 
 public class SubmitOrderTest extends BaseTest{
+	//Sample comment for CICD lecture from RahulShettyAcademy
 	String productName = "ZARA COAT 3";
 	@Test(dataProvider="getData", groups={"Purchase"})
 	public void SubmitOrderTest(HashMap<String,String>input) throws IOException, InterruptedException
